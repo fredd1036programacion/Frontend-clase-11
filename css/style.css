@@ -1,0 +1,81 @@
+*{margin: 0;
+padding: 0;
+font-family: sans-serif;}
+
+
+header{background-color: black;
+    padding:10px;
+    height: 100px}
+
+.contentheader{display:flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+
+header a{color: white;
+text-decoration: none;}
+
+.navegadores a{margin: 2px;}
+
+main {padding: 30px;
+background-color: #E5E5E5;}
+
+.Contenedorprincipal{display:flex;
+justify-content: space-around;}
+
+
+
+.contenedor1cuadro{background-image: url(../img/delivery.jpg);
+    width: 490px;
+    height: 350px;
+    border-radius: 5px}
+
+.Titulo_main{font-weight: bold;
+font-size: 24px;
+color:#FC200C}
+
+.Comprando{font-size: 24px;
+    font-weight: bold;
+    color:white}
+
+    
+
+.seccion2{width: 491px;
+            height: 350px;}
+
+.info_del_recuadro{line-height: 40px;
+                    display:flex;
+                justify-content: space-around;
+            align-items: center;}
+
+.titulo_2{color:#FC200C;
+    position:relative;
+    text-align: center;}
+
+.Lista_desplegable{display:flex;
+    flex-direction: column;
+    font-weight: bold;
+
+    }
+
+    .navegadores a{margin: 2px;}
+
+    footer{background-color: black ;
+    color:white;
+    height: 100px;
+    padding: 10px 0 10px 0}
+
+    footer a{color: white;
+        text-decoration: none;
+        margin: 4%
+        }
+
+    .contenedorfooter{display:flex;
+        justify-content: space-between;
+        align-items: center;
+        padding: 0%10px 0 10px;}
+
+    .navegadores2{display: flex;
+                flex-direction:column ;
+            }
